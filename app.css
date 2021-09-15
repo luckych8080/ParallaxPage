@@ -1,0 +1,155 @@
+body, html{
+    height: 100%;
+    margin: 0;
+}
+
+.parallax-1{
+  /* The image used */
+  background-image: url("imgs/1.jpg");
+
+  /* Set a specific height */
+  min-height: 900px;
+
+  /* Create the parallax scrolling effect */
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.p1  {
+    font-size: 1.8em;
+    padding: 70px 100px;
+    text-align: justify;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+}
+
+div h2{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+
+}
+
+.p2{
+    font-size: 30px;
+    padding: 70px 100px;
+    text-align: justify;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    background-color: #282e34;
+    color: white;
+}
+
+.p3{
+    font-size: 30px;
+    padding: 70px 100px;
+    text-align: justify;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    background-color: #282e34;
+    color: white;
+}
+
+.parallax-2{
+    /* The image used */
+    background-image: url("imgs/2.jpg");
+  
+    /* Set a specific height */
+    min-height: 900px;
+  
+    /* Create the parallax scrolling effect */
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-3{
+    /* The image used */
+    background-image: url("imgs/3.jpg");
+  
+    /* Set a specific height */
+    min-height: 900px;
+  
+    /* Create the parallax scrolling effect */
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-4{
+    /* The image used */
+    background-image: url("imgs/4.jpg");
+  
+    /* Set a specific height */
+    min-height: 900px;
+  
+    /* Create the parallax scrolling effect */
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.border{
+    
+    padding: 50% 33%;
+}
+
+.color{
+    background-color: #777;
+    /* width: 30%; */
+    padding: 10px;
+}
+
+/*  */
+
+@media (min-width: 992px){
+
+    .color{
+        padding: 7px;
+    }
+
+    .border{
+    
+        position: absolute;
+        left: 541px;
+        top: 50%;
+        width: 400px;
+        text-align: center;
+    
+        color: #fff;
+        padding: 18px;
+        font-size: 35px;
+        letter-spacing: 10px;
+        
+    
+    }
+}
+
+@media (max-width: 768px){
+
+    .color{
+        padding: 3%;
+    }
+
+    .border{
+    
+        padding: 50% 25%;
+    }
+    
+
+}
+
